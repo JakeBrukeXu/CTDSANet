@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
-from MACTN.utils import MODEL_REGISTOR, MODEL_REGISTOR_MT, timer_wrap
-from MACTN import *
+from utils import MODEL_REGISTOR, MODEL_REGISTOR_MT, timer_wrap
 from modules import *
 from layers import *
 from CMT.transformer import TransformerEncoder
